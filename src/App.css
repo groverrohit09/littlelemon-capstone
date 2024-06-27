@@ -110,18 +110,6 @@ p {
   flex-shrink: inherit;
 }
 
-@media (width<700px) {
-  .hero-flex-container {
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
-  }
-}
-
-.container2 {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-}
-
 .container2-grid-item-1 > h1 {
   color: black;
   margin-top: 3rem;
@@ -134,12 +122,6 @@ p {
   margin-right: 0;
 }
 
-.cards {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  width: 50rem;
-}
-
 .card1,
 .card2,
 .card3 {
@@ -149,16 +131,52 @@ p {
   background-color: #edefee;
   text-align: center;
 }
+.card1 {
+  margin-left: 0;
+}
+
+@media (width<700px) {
+  .hero-flex-container {
+    grid-template-columns: 1fr;
+  }
+
+  .container2 {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .box1,
+  .food-sample-image,
+  .container2-grid-item-1,
+  .container2-grid-item-2,
+  .online-menu-button,
+  main {
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+  }
+
+  main {
+    max-width: 100%;
+  }
+}
 
 @media (width>700px) {
   .box1,
   .container2-grid-item-1,
   .cards {
-    margin-left: 20rem;
+    margin-left: 15rem;
   }
 
   .cards {
-    margin-right: 20rem;
+    margin-right: 30rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 40rem;
+  }
+
+  .container2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
   }
 }
 
