@@ -4,7 +4,7 @@ import greekSaladImg from "./greek salad.jpg";
 
 
 function Specials() {
-  return <section>
+  return <>
     <section className="container2">
       <article className="container2-grid-item-1">
         <h1>This Week's Specials!</h1>
@@ -31,7 +31,7 @@ function Specials() {
         <a href="/">Order a Delivery</a>
       </article>
     </section>
-  </section>;
+  </>;
 
 }
 

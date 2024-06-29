@@ -1,14 +1,15 @@
+import { Link } from 'react-router-dom';
 import logo from './logo.jpeg';
 function Nav() {
   return <nav className='flex-container'>
-    <div className='box'><img className='logo' src={logo} alt='little-lemon-logo' /></div>
-    <div className='box'><a href="/home">Home</a></div>
-    <div className='box'><a href="/about">About</a></div>
-    <div className='box'><a href="/menu">Menu</a></div>
-    <div className='box'><a href="/reservations">Reservations</a>  </div>
-    <div className='box'><a href="/order-online">Order Online</a>  </div>
-    <div className='box'><a href="/login">Login</a>  </div>
-  </nav>;
+    <Link to='/' className='box'><img className='logo' src={logo} alt='little-lemon-logo' /></Link>
+    <Link to='/' className='box'>Home</Link>
+    <Link to='/' className='box'>About</Link>
+    <Link to='/' className='box'>Menu</Link>
+    <Link to='/reservations' className='box'>Reservations</Link>
+    <Link to='/' className='box'>Order Online</Link>
+    <Link to='/' className='box'>Login</Link>
+  </nav >;
 }
 
 export default Nav;
