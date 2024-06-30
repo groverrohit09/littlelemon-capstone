@@ -1,5 +1,6 @@
 import BookingForm from "./BookingForm";
 import Specials from "./Specials";
+import Footer from "./Footer";
 import { useReducer } from "react";
 
 
@@ -45,6 +46,8 @@ function BookingPage() {
     <BookingForm availableTimes={availableTimes} changeAvailableTimes={(date) => {
       dispatch({ date: date })
     }}></BookingForm>
-    <Specials></Specials></main>;
+    <Specials></Specials>
+    <Footer></Footer>
+  </main>;
 }
 export default BookingPage;
