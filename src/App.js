@@ -9,8 +9,8 @@ function App() {
     <><BrowserRouter>
       <Nav></Nav>
       <Routes>
-        <Route path='/' element={<HomePage />} />
-        <Route path='/reservations' element={<BookingPage />} />
+        <Route path='/littlelemon-frontend-capstone' element={<HomePage />} />
+        <Route path='/littlelemon-frontend-capstone/reservations' element={<BookingPage />} />
       </Routes>
     </BrowserRouter>
     </>
