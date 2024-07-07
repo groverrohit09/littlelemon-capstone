@@ -1,4 +1,4 @@
-import heroImg from "./restauranfood.jpg";
+import heroImg from "../assets/restauranfood.jpg";
 import { Link } from "react-router-dom";
 
 function CallToAction() {

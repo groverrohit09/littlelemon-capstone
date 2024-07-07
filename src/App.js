@@ -1,7 +1,7 @@
 import './App.css';
-import BookingPage from './BookingPage';
-import HomePage from './HomePage';
-import Nav from './Nav';
+import BookingPage from './components/BookingPage';
+import HomePage from './components/HomePage';
+import Nav from './components/Nav';
 import { Routes, Route, BrowserRouter } from 'react-router-dom';
 
 function App() {

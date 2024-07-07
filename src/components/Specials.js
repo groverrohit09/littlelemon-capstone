@@ -1,6 +1,6 @@
-import lemonDessertImg from "./lemon dessert.jpg";
-import bruchettaImg from "./bruchetta.png";
-import greekSaladImg from "./greek salad.jpg";
+import lemonDessertImg from "../assets/lemon dessert.jpg";
+import bruchettaImg from "../assets/bruchetta.png";
+import greekSaladImg from "../assets/greek salad.jpg";
 
 
 function Specials() {

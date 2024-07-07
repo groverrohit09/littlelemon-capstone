@@ -1,0 +1,27 @@
+.booking-form {
+  display: grid;
+  gap: 0.5rem;
+  width: 70%;
+  margin: auto;
+  grid-template-columns: 1fr 1fr;
+  /* background-color: #495e57; */
+}
+
+.reserve-button {
+  background-color: #f4ce14;
+  margin-top: 1rem;
+  border-radius: 10%;
+  height: 2rem;
+  font-family: "Markazi Text", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  border: 0;
+}
+
+@media (width<700px) {
+  .booking-form {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+}

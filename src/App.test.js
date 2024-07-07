@@ -1,7 +1,5 @@
 import { fireEvent, render, screen } from '@testing-library/react';
 import App from './App';
-import BookingForm from './BookingForm';
-import HomePage from './HomePage';
 
 test('checks if BookingForm is there', () => {
   render(<App />);

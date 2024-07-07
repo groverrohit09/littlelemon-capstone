@@ -1,7 +1,8 @@
 import { useState, useEffect } from "react";
+import "../styles/bookingform.css"
 import Moment from "moment";
 import OccasionDropdown from "./OccasionDropdown";
-import tableImg from "./table.jpeg";
+import tableImg from "../assets/table.jpeg";
 
 function BookingForm(props) {
 
