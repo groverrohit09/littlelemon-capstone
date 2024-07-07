@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/littlelemon-frontend-capstone/static/css/main.76327722.css",
+    "main.js": "/littlelemon-frontend-capstone/static/js/main.c208ef91.js",
+    "static/js/453.0a93cbb0.chunk.js": "/littlelemon-frontend-capstone/static/js/453.0a93cbb0.chunk.js",
+    "static/media/greek salad.jpg": "/littlelemon-frontend-capstone/static/media/greek salad.bed423a1fab5b210e347.jpg",
+    "static/media/restauranfood.jpg": "/littlelemon-frontend-capstone/static/media/restauranfood.e8abf5b772b6817189aa.jpg",
+    "static/media/bruchetta.png": "/littlelemon-frontend-capstone/static/media/bruchetta.9d80194f93771ac348f8.png",
+    "static/media/logo.jpeg": "/littlelemon-frontend-capstone/static/media/logo.e747301e98c8d3741bfa.jpeg",
+    "index.html": "/littlelemon-frontend-capstone/index.html",
+    "main.76327722.css.map": "/littlelemon-frontend-capstone/static/css/main.76327722.css.map",
+    "main.c208ef91.js.map": "/littlelemon-frontend-capstone/static/js/main.c208ef91.js.map",
+    "453.0a93cbb0.chunk.js.map": "/littlelemon-frontend-capstone/static/js/453.0a93cbb0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.76327722.css",
+    "static/js/main.c208ef91.js"
+  ]
+}
